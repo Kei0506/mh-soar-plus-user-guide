@@ -1,13 +1,10 @@
 title: MH-SOAR+ User Guide
 description: Store Crew User Guide for MH-SOAR+
-theme: just-the-docs
+
+remote_theme: just-the-docs/just-the-docs
 
 url: https://kei0506.github.io
 baseurl: /mh-soar-plus-user-guide
-
-aux_links:
-  "MH-SOAR+":
-    - https://<username>.github.io/mh-soar-plus-user-guide
 
 just_the_docs:
   navigation_depth: 3
