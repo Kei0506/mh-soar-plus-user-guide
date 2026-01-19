@@ -1,0 +1,15 @@
+/* Narrower sidebar */
+.side-bar {
+  width: 240px;
+  min-width: 240px;
+}
+
+/* Adjust main content to match */
+.main {
+  margin-left: 240px;
+}
+
+/* Optional: slightly smaller nav text */
+.site-nav {
+  font-size: 14px;
+}
