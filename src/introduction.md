@@ -1,4 +1,4 @@
-## What is MH-SOAR+?
+# What is MH-SOAR+?
 
 **MH-SOAR+** is the system used by stores to **create orders, manage payments, and track what happens after checkout**.
 
