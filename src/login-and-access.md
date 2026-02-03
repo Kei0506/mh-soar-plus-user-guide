@@ -10,9 +10,14 @@ Ginagawa ito para:
 ---
 
 ## Paano mag-login sa MH SOAR+ Next
-<video controls style="max-width: 480px; width: 100%;" playsinline>
-  <source src="videos/login-and-access.mp4" type="video/mp4">
-</video>
+<div style="max-width: 360px; max-height: 640px; margin: 0 auto; overflow: hidden;">
+  <video
+    controls
+    playsinline
+    style="width: 100%; max-height: 640px; object-fit: contain;">
+    <source src="videos/login-and-access.mp4" type="video/mp4">
+  </video>
+</div>
 
 Sundin ang mga steps na ito:
 
