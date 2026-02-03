@@ -12,7 +12,7 @@ Ginagawa ito para:
 ## Paano mag-login sa MH SOAR+ Next
 
 <video width="100%" controls>
-  <source src="videos/login-and-access.mov" type="video/quicktime">
+  <source src="videos/login-and-access.mp4" type="video/mp4">
 </video>
 
 Sundin ang mga steps na ito:
