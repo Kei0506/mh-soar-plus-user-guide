@@ -32,14 +32,11 @@ Kapag successful ang login, mapupunta ka sa **main screen** ng app.
 
 ## Pagpili ng Branch
 
-Pagkatapos i-enter ang credentials, hihingan ka ng system na **pumili ng branch**.
+Pagkatapos i-enter ang credentials, kinakailangan na **pumili ng branch**.
 
 - Ang branch ang magsasabi kung **saan mai-record ang orders at records**
-    
 - Ang lalabas lang na branches ay **yung authorized ka**
-    
 - Siguraduhing **tama ang branch** bago mag-proceed
-    
 
 > ⚠️ **Important**  
 > Kapag maling branch ang napili, maaaring magka-problema sa reports at records.
@@ -54,10 +51,8 @@ May **offline access** ang **MH SOAR+ Next**, pero may **importanteng requiremen
 
 Pwede mong gamitin ang app kahit walang internet kung:
 
-- Nakapag-login ka na **kahit isang beses online**
-    
+- Nakapag-login ka na **kahit isang beses online**    
 - Na-verify na ng system ang iyong credentials
-    
 
 Kapag na-meet ito, pwede nang buksan at gamitin ang app kahit offline.
 
@@ -68,11 +63,7 @@ Kapag na-meet ito, pwede nang buksan at gamitin ang app kahit offline.
 Hindi gagana ang offline access kung:
 
 - First time mo pa lang mag-login
-    
-- Kakalog-out mo lang at hindi ka pa ulit nakakalogin online
-    
-- Bagong install ang app at hindi pa authenticated
-    
+- Bagong install ang app at hindi pa authenticated    
 
 > ⚠️ **Important**  
 > Ang **unang login ay kailangang may internet connection**.
@@ -82,13 +73,9 @@ Hindi gagana ang offline access kung:
 ## Best Practices sa Login
 
 - Laging i-check kung **tamang branch** ang napili
-    
 - Huwag i-share ang **username at password**
-    
 - Kapag hindi makapag-login, i-check muna ang internet connection
-    
 - I-report agad sa supervisor o support kung may login issue
-    
 
 ---
 
@@ -97,12 +84,8 @@ Hindi gagana ang offline access kung:
 Kapag naka-login na, pwede ka nang:
 
 - Mag-create at mag-send ng **sales orders**
-    
 - Mag-update ng **inventory**
-    
 - Mag-record ng **expenses at daily reports**
-    
 - Gumamit ng **Requisition, Inventory, at Sold Out / Z-Reading**
-    
 - Magpatuloy magtrabaho kahit maging unstable ang internet  
     _(basta nakapag-login na online)_
