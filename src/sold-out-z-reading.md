@@ -1,201 +1,159 @@
 # Sold Out / Z-Reading
 
-The **Sold Out / Z-Reading** feature is used to record the **daily sales summary** of the store.
+Ang **Sold Out / Z-Reading** ay ginagamit para i-record ang **daily sales summary** ng store.
 
-This includes:
+Kasama dito ang:
 
-- Daily **gross sales**
+- **Gross sales** ng araw
+- Mga **expenses**
+- **Tender amounts** (cash, etc.)
+- Pag-upload ng supporting images
+- Pag-send ng record para ma-sync sa **iDempiere**
     
-- **Expenses** for the day
-    
-- **Tender amounts**
-    
-- Uploading supporting images
-    
-- Sending the record for syncing to **iDempiere**
-    
-
-This process is usually completed **at the end of the day**.
+👉 Karaniwang ginagawa ito **end of day**.
 
 ---
-### Step 1: Open Sold Out / Z-Reading
 
-1. From the menu, select **Sold Out / Z-Reading**
-    
-2. A prompt will appear:
-    
+## Step 1: Open Sold Out / Z-Reading
 
+1. Sa menu, piliin ang **Sold Out / Z-Reading**
+2. Lalabas ang prompt:
 > **“Do you want to create a new sold out record?”**
-
-3. Select **Yes**
-    
+3. Piliin ang **Yes**
 
 ---
 
-### Step 2: Review the header details
+## Step 2: Review Header Details
 
-You will be redirected to a page showing:
-
+Mapupunta ka sa page na may mga sumusunod:
 - **Document Number** (auto-generated)
-    
 - **Branch Name**
-    
 - **Sales Date**
     
+### Pag-edit ng Sales Date (Kung kinakailangan)
 
-#### Editing the sales date
-
-- Click **Edit** if you need to update the date
-    
-- Make sure the sales date matches the actual business date
-    
-
+- I-tap ang **Edit** kung kailangan baguhin ang date
+- Siguraduhing tugma ang **sales date** sa actual business date
+  
 ---
 
-### Step 3: Add Sales Line
+## Step 3: Add Sales Line
 
-1. Select **Sales Line**
-    
-2. A prompt will appear:
-    
-
+1. Piliin ang **Sales Line**
+2. Lalabas ulit ang prompt:
 > **“Would you like to add an invoice?”**
-
-- Select **Yes** → to add **expenses**
-    
-- Select **No** → to proceed directly to **Gross Sales**
+- **Yes** → para mag-add ng **expenses**
+- **No** → diretso na sa **Gross Sales**
     
 
 ---
 
-### Step 4: Add invoices (Expenses)
+## Step 4: Add Invoices (Expenses)
 
-If **Yes** was selected:
+Kung pinili ang **Yes**:
+- I-encode lahat ng **expenses** for the day
+- I-check mabuti ang details
+- Kapag tapos na, magproceed na
 
-- Encode all **expenses** for the day
-    
-- Review the details carefully
-    
-- Proceed once all expenses are recorded
-    
-
-If there are no expenses, you may skip this step.
+👉 Kung **walang expenses**, pwedeng i-skip ang step na ito.
 
 ---
 
-### Step 5: Enter Gross Sales
+## Step 5: Enter Gross Sales
 
-- Encode the **gross sales** for the day
+- I-encode ang **gross sales** ng araw ayon sa mga **produktong naibenta**
+- I-check kung tugma ang amounts sa actual sales
+- Siguraduhing **kumpleto at tama** ang lahat ng entries
     
-- Ensure all amounts are accurate
-    
-
 ---
 
-### Step 6: Save the Sold Out record
+## Step 6: Save Sold Out Record
 
-1. Click **Save**
-    
-2. Review the record details
-    
+1. I-tap ang **Save**
+2. I-review ang mga na-encode
 
 > ⚠️ **Important**  
-> Saving does not automatically send the record to iDempiere.
+> Ang pag-save ay **hindi pa automatic na nagse-send** sa iDempiere.
 
 ---
 
-### Step 7: Open Bank Account menu
+## Step 7: Open Bank Account Menu
 
-1. From the menu, select **Bank Account**
+1. Sa menu, piliin ang **Bank Account**
+2. Piliin ang **bank account** kung saan ide-deposit ang cash
     
-2. Choose the appropriate **bank account** where cash will be deposited
-    
+---
+
+## Step 8: Encode Tender Types
+
+- Piliin ang **Tender Type** (example: Cash, GCash)
+- I-encode ang **amount** para sa bawat tender type
+- Maglagay lang ng amounts kung **may ginamit na tender**
+
+👉 Ulitin ito hanggang ma-encode lahat ng tender types.
+
+> ⚠️ **Important (GCash)**  
+> Kapag **GCash** ang tender type, ilagay ang **actual total amount**.  
+> Ang system na ang **automatic magko-compute ng commission**, kaya huwag bawasan ang amount.
 
 ---
 
-### Step 8: Encode Tender Types
+## Step 9: Save Bank Account Details
 
-- Select the applicable **Tender Type** (example: Cash)
-    
-- Enter the corresponding **amount**
-    
-- Add prices only if applicable
-    
-
-Repeat until all tender types are encoded.
+- I-tap ang **Save** pagkatapos ma-encode ang lahat
 
 ---
 
-### Step 9: Save Bank Account details
+## Step 10: View Sold Out Report
 
-- Click **Save** after encoding all tender amounts
-    
-
----
-
-### Step 10: View Sold Out Report
-
-1. Go back to **Sold Out / Z-Reading**
-    
-2. Select **Sold Out Report**
-    
-3. Review the summary of:
-    
+1. Piliin ang **Sold Out Report**
+2. I-review ang summary ng:
     - Sales
-        
     - Expenses
-        
     - Tender amounts
-        
+      
+---
+
+## Step 11: Attach Images (Optional)
+
+1. Piliin ang **Attach Images**
+2. Mag-upload ng supporting images (receipts, reports, etc.)
 
 ---
 
-### Step 11: Attach images (Optional)
+## Step 12: Final Save and Confirmation
 
-1. Select **Attach Images**
-    
-2. Upload supporting images such as receipts or reports
-    
+1. I-tap ang **Save**
+2. Lalabas ang confirmation prompt
+3. Piliin ang **Yes**
 
----
-
-### Step 12: Final save and confirmation
-
-1. Click **Save**
-    
-2. A confirmation prompt will appear
-    
-3. Select **Yes** to proceed
-    
-
-You will be redirected to **Sold Out Transactions**.
+👉 Ire-redirect ka sa **Sold Out Transactions**.
 
 ---
-### Step 13: Send transaction
 
-1. In **Sold Out Transactions**, select the record to be sent
-    
-2. Click **Send Transaction**
-    
-3. Click **Send**
-    
+## Step 13: Send Transaction
 
-The record will be synced to **iDempiere**.
+> ℹ️ **Note (Offline vs Online)**  
+> Puwedeng **mag-add at mag-save ng Sold Out record kahit offline**.  
+> Pero para **ma-send ang transaction**, **kailangang may internet connection**.
+
+### Paano mag-send ng transaction
+
+1. Sa **Sold Out Transactions**, piliin ang record
+2. I-tap ang **Send Transaction**
+3. I-tap ang **Send**
+
+📤 Ang record ay ise-send at isi-sync sa **iDempiere** kapag online na.
 
 > ✅ **Important**  
-> Only sent transactions will be reflected in the system.
+> **Only sent transactions** ang lalabas at mare-record sa system.
 
 ---
 
-## Best practices
+## Best Practices
 
-- Always double-check amounts before saving
-    
-- Confirm the correct **sales date**
-    
-- Encode Bank Account and Tender details properly
-    
-- Attach images when required
-    
-- Send the transaction only after reviewing the Sold Out Report
-    
+- Laging i-double check ang amounts bago mag-save
+- Siguraduhin ang **tamang sales date**
+- Kumpletuhin ang **Bank Account** at **Tender details**
+- Mag-attach ng images kung required
+- I-send lang ang transaction pagkatapos ma-review ang **Sold Out Report**
