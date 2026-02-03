@@ -1,4 +1,4 @@
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/7a24e38b-547d-41b7-b164-1e92829764fd" /># Login and Access
+# Login and Access
 
 Para magamit ang **MH SOAR+ Next**, kailangan munang mag-login gamit ang **assigned credentials**.
 
